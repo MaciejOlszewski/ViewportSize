@@ -1,5 +1,4 @@
 @import url(http://fonts.googleapis.com/css?family=Merriweather:900);
-
 * {
   font-family: 'Merriweather', Helvetica, Arial, sans-serif;
   font-size: 5vw;
@@ -13,6 +12,9 @@ div.center {
   text-align: center;
   vertical-align: middle;
   line-height: 100vh;
+}
+div.center span:first-child:after {
+  content: " x "
 }
 div.center span:last-child:after {
   content: " px"
